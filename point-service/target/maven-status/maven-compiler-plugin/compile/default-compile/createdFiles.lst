@@ -1,0 +1,5 @@
+org\order\point\service\ResultHolder.class
+org\order\point\service\impl\PointServiceImpl.class
+org\order\point\PointServiceApplication.class
+org\order\point\controller\PointController.class
+org\order\point\service\PointService.class
