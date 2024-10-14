@@ -1,0 +1,3 @@
+org\order\tcc\persistent\dao\InvMapper.class
+org\order\tcc\TccInvApplication.class
+org\order\tcc\service\impl\InvServiceImpl.class

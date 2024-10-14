@@ -1,0 +1,5 @@
+org\order\tcc\controller\ConsumeController.class
+org\order\tcc\service\UserService.class
+org\order\tcc\persistent\mapper\OrderMapper.class
+org\order\tcc\service\impl\OrderServiceImpl.class
+org\order\tcc\TccOrderApplication.class

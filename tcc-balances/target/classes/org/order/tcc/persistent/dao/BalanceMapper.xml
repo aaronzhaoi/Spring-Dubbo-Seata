@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.order.tcc.persistent.dao.BalanceMapper">
+
+
+    <insert id="insertBalanceHis">
+        insert into balance(user_id, balance_id, balance)
+        values (#{customBalance.userId}, #{customBalance.balanceId}, #{customBalance.balance})
+    </insert>
+    <delete id="deleteBalanceHis">
+        delete from balance where user_id=#{customBalance.userId}
+    </delete>
+</mapper>

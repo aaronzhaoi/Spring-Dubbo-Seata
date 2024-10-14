@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.order.tcc.persistent.dao.InvMapper">
+
+
+    <insert id="insertInv">
+        insert into item_tbl(item_id, item_name)
+        values (#{orderInv.itemId}, #{orderInv.itemName})
+
+    </insert>
+    <delete id="deleteInv">
+        delete
+        from item_tbl
+        where item_id = #{orderInv.itemId}
+    </delete>
+</mapper>
