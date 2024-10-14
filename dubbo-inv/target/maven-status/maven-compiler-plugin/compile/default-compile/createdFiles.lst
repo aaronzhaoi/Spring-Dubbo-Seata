@@ -1,0 +1,4 @@
+org\order\dubbo\DubboInvApplication.class
+org\order\dubbo\facade\DubboInvFacadeImpl.class
+org\order\dubbo\persistent\dao\InvMapper.class
+org\order\dubbo\controller\UserController.class

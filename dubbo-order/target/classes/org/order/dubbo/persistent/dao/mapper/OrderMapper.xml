@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.order.dubbo.persistent.dao.mapper.OrderMapper">
+
+
+    <insert id="insertOrder">
+        insert into sc_order(order_id, order_name)
+        values (#{userDTO.userId}, #{userDTO.userName})
+    </insert>
+    <delete id="deleteOrder">
+        deelete from sc_order where order_id=#{userDTO.userId}
+    </delete>
+</mapper>

@@ -1,0 +1,8 @@
+org\order\dubbo\api\facade\DubboInvFacade.class
+org\order\dubbo\api\tcc\BalanceFacade.class
+org\order\dubbo\api\domain\CustomBalance.class
+org\order\dubbo\api\tcc\OrderService.class
+org\order\dubbo\api\facade\DubboBalanceFacade.class
+org\order\dubbo\api\domain\UserDTO.class
+org\order\dubbo\api\domain\OrderInv.class
+org\order\dubbo\api\tcc\InvService.class

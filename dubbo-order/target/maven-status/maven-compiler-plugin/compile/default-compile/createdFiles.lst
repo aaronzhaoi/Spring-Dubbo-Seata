@@ -1,0 +1,4 @@
+org\order\dubbo\controller\ConsumeController.class
+org\order\dubbo\persistent\dao\mapper\OrderMapper.class
+org\order\dubbo\DubboOrderApplication.class
+org\order\dubbo\service\UserService.class

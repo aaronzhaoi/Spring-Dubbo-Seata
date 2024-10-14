@@ -1,0 +1,3 @@
+org\order\balance\DubboBalanceApplication.class
+org\order\balance\service\DeductBalanceServiceImpl.class
+org\order\balance\persistent\dao\BalanceMapper.class
